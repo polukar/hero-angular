@@ -1,0 +1,10 @@
+<div class="di">
+  <h1>{{ title }} 2</h1>
+  <div class="hero" *ngFor="let item of hero">
+    <div class="hero__img">
+      <img src="{{ item.img }}" alt="">
+    </div>
+    <h3 class="hero__title">{{ item.title }}</h3>
+    <p class="hero__description">{{ item.description }}</p>
+  </div>
+</div>

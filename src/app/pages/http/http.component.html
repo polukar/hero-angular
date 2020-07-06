@@ -1,0 +1,14 @@
+<h1>HTTP</h1>
+<div class="http__buttons">
+  <button (click)="httpEvent()">All Hero</button>
+</div>
+
+<div class="http">
+  <div class="hero" *ngFor="let item of data">
+    <div class="hero__img">
+      <img src="{{ item.img }}" alt="">
+    </div>
+    <h3 class="hero__title">{{ item.title }} {{item.category}}</h3>
+    <p class="hero__description">{{ item.description }}</p>
+  </div>
+</div>

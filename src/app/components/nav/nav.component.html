@@ -1,0 +1,3 @@
+<nav class="nav">
+  <a (click)="active(item.link)" routerLinkActive="active" class="nav__link" routerLink="{{ item.link }}" *ngFor="let item of navs">{{ item.title }}</a>
+</nav>

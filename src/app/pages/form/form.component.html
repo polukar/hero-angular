@@ -1,0 +1,23 @@
+<div class="form-page">
+  <div class="container form-page__wrapper">
+    <h1>{{ title }}</h1>
+    <form [formGroup]="myForm">
+      <label>
+        name:
+        <input type="text" name="name"  class="form-control" formControlName="name" />
+      </label>
+      <label>
+        phone:
+        <input type="tel" name="phone"  class="form-control" formControlName="phone">
+      </label>
+      <label>
+        age:
+        <input type="text" name="age"  class="form-control" formControlName="age">
+      </label>
+      <button (click)="submit()" [disabled]="!myForm.valid">Send...</button>
+    </form>
+    <div class="form__pic">
+      <img src="../assets/img/7.jpg" alt="">
+    </div>
+  </div>
+</div>
