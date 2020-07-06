@@ -19,6 +19,10 @@ export class DiComponent implements OnInit {
 
   }
 
+  /**
+   *  getter action heroes
+   * */
+
   getHeroes(): void {
     this.hero = this.heroService.getHeroes();
   }

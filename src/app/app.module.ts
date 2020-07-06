@@ -8,7 +8,7 @@ import { CompModule } from './pages/comp/comp.module';
 import { FormComponent } from './pages/form/form.component';
 import { HttpComponent } from './pages/http/http.component';
 import { DiComponent } from './pages/di/di.component'
-import {HttpClientModule} from "@angular/common/http";
+import { HttpClientModule } from "@angular/common/http";
 
 
 @NgModule({

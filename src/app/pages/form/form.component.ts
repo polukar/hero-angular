@@ -14,6 +14,10 @@ export class FormComponent implements OnInit {
     "age": new FormControl("")
   })
 
+  /**
+   * send form
+   */
+
   submit() {
     console.log('submit');
   }

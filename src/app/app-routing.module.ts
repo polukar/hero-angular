@@ -8,7 +8,7 @@ import { DiComponent } from "./pages/di/di.component";
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'comp', pathMatch: 'full' },
+  {path: '', redirectTo: 'comp', pathMatch: 'full' },
   {path: "comp", component: CompComponent},
   {path: "form", component: FormComponent},
   {path: "http", component: HttpComponent},

@@ -14,6 +14,10 @@ export class HttpComponent implements OnInit {
     this.data = new Array<any>()
   }
 
+  /**
+   *  getter Data json file heroes
+   * */
+
   httpEvent(){
     this.HttpJson.getData().subscribe((data) =>{
       this.data = data;
